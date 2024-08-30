@@ -4,6 +4,7 @@ background: white;
 font-family: "Inter Tight", sans-serif;
 
 margin: 0px;
+margin-bottom: 100;
 }
 
 header { 
@@ -37,9 +38,7 @@ p{
     font-size: 20px;   
 }
 
-img{
-    height: 200px ;
-}
+
 
 .categoria-video{
      display: flex ;
@@ -50,6 +49,20 @@ img{
 .categoria{
  padding-left: 20px ;
  padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px ;
+}
+
+.categoria-videos img:hover{
+ opacity: 1.0; 
+ border: 1px solid red;
+} 
+
+.categoria h2{
+    color: blue;
 }
 
 
